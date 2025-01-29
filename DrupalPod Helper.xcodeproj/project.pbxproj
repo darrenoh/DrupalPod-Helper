@@ -1,0 +1,1022 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9510961F273EC74B00DEF9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510961E273EC74B00DEF9BE /* AppDelegate.swift */; };
+		95109621273EC74B00DEF9BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95109620273EC74B00DEF9BE /* SceneDelegate.swift */; };
+		95109624273EC74B00DEF9BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95109622273EC74B00DEF9BE /* LaunchScreen.storyboard */; };
+		95109627273EC74B00DEF9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95109625273EC74B00DEF9BE /* Main.storyboard */; };
+		95109630273EC74B00DEF9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510962F273EC74B00DEF9BE /* AppDelegate.swift */; };
+		95109633273EC74B00DEF9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95109631273EC74B00DEF9BE /* Main.storyboard */; };
+		9510963A273EC74B00DEF9BE /* DrupalPod Helper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 95109639273EC74B00DEF9BE /* DrupalPod Helper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		95109644273EC74B00DEF9BE /* DrupalPod Helper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 95109643273EC74B00DEF9BE /* DrupalPod Helper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9510964A273EC74B00DEF9BE /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 95109605273EC74300DEF9BE /* Main.html */; };
+		9510964B273EC74B00DEF9BE /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 95109605273EC74300DEF9BE /* Main.html */; };
+		9510964E273EC74B00DEF9BE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 95109608273EC74300DEF9BE /* Style.css */; };
+		9510964F273EC74B00DEF9BE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 95109608273EC74300DEF9BE /* Style.css */; };
+		95109650273EC74B00DEF9BE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 95109609273EC74300DEF9BE /* Script.js */; };
+		95109651273EC74B00DEF9BE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 95109609273EC74300DEF9BE /* Script.js */; };
+		95109652273EC74B00DEF9BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510960A273EC74300DEF9BE /* ViewController.swift */; };
+		95109653273EC74B00DEF9BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510960A273EC74300DEF9BE /* ViewController.swift */; };
+		95109654273EC74B00DEF9BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9510960B273EC74B00DEF9BE /* Assets.xcassets */; };
+		95109655273EC74B00DEF9BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9510960B273EC74B00DEF9BE /* Assets.xcassets */; };
+		95109656273EC74B00DEF9BE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510960D273EC74B00DEF9BE /* SafariWebExtensionHandler.swift */; };
+		95109657273EC74B00DEF9BE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510960D273EC74B00DEF9BE /* SafariWebExtensionHandler.swift */; };
+		95109679273EC86000DEF9BE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 95109678273EC86000DEF9BE /* Icon.png */; };
+		9510967A273EC86000DEF9BE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 95109678273EC86000DEF9BE /* Icon.png */; };
+		951097F1273ED2F900DEF9BE /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 951097E8273ED2F800DEF9BE /* options.html */; };
+		951097F2273ED2F900DEF9BE /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 951097E8273ED2F800DEF9BE /* options.html */; };
+		951097F3273ED2F900DEF9BE /* css in Resources */ = {isa = PBXBuildFile; fileRef = 951097E9273ED2F800DEF9BE /* css */; };
+		951097F4273ED2F900DEF9BE /* css in Resources */ = {isa = PBXBuildFile; fileRef = 951097E9273ED2F800DEF9BE /* css */; };
+		951097F5273ED2F900DEF9BE /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 951097EA273ED2F800DEF9BE /* scripts */; };
+		951097F6273ED2F900DEF9BE /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 951097EA273ED2F800DEF9BE /* scripts */; };
+		951097F7273ED2F900DEF9BE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 951097EB273ED2F800DEF9BE /* manifest.json */; };
+		951097F8273ED2F900DEF9BE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 951097EB273ED2F800DEF9BE /* manifest.json */; };
+		951097FB273ED2F900DEF9BE /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 951097ED273ED2F800DEF9BE /* popup.html */; };
+		951097FC273ED2F900DEF9BE /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 951097ED273ED2F800DEF9BE /* popup.html */; };
+		951097FD273ED2F900DEF9BE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 951097EE273ED2F800DEF9BE /* LICENSE */; };
+		951097FE273ED2F900DEF9BE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 951097EE273ED2F800DEF9BE /* LICENSE */; };
+		951097FF273ED2F900DEF9BE /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 951097EF273ED2F800DEF9BE /* icons */; };
+		95109800273ED2F900DEF9BE /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 951097EF273ED2F800DEF9BE /* icons */; };
+		95109801273ED2F900DEF9BE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 951097F0273ED2F900DEF9BE /* README.md */; };
+		95109802273ED2F900DEF9BE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 951097F0273ED2F900DEF9BE /* README.md */; };
+		9548E3A129A945A50036B5DA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9548E3A029A945A50036B5DA /* StoreKit.framework */; };
+		9560FE2D29F315040047094E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9560FE2C29F315040047094E /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9510963B273EC74B00DEF9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 951095FF273EC74200DEF9BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95109638273EC74B00DEF9BE;
+			remoteInfo = "DrupalPod Helper Extension (iOS)";
+		};
+		95109645273EC74B00DEF9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 951095FF273EC74200DEF9BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95109642273EC74B00DEF9BE;
+			remoteInfo = "DrupalPod Helper Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9510966D273EC74B00DEF9BE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9510963A273EC74B00DEF9BE /* DrupalPod Helper Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95109674273EC74B00DEF9BE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				95109644273EC74B00DEF9BE /* DrupalPod Helper Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		95109606273EC74300DEF9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		95109608273EC74300DEF9BE /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		95109609273EC74300DEF9BE /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		9510960A273EC74300DEF9BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9510960B273EC74B00DEF9BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9510960D273EC74B00DEF9BE /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		9510961B273EC74B00DEF9BE /* DrupalPod Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DrupalPod Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9510961E273EC74B00DEF9BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95109620273EC74B00DEF9BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95109623273EC74B00DEF9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95109626273EC74B00DEF9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95109628273EC74B00DEF9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9510962D273EC74B00DEF9BE /* DrupalPod Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DrupalPod Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9510962F273EC74B00DEF9BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95109632273EC74B00DEF9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95109634273EC74B00DEF9BE /* DrupalPod Helper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DrupalPod Helper.entitlements"; sourceTree = "<group>"; };
+		95109639273EC74B00DEF9BE /* DrupalPod Helper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DrupalPod Helper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9510963E273EC74B00DEF9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95109643273EC74B00DEF9BE /* DrupalPod Helper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DrupalPod Helper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95109648273EC74B00DEF9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95109649273EC74B00DEF9BE /* DrupalPod Helper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DrupalPod Helper.entitlements"; sourceTree = "<group>"; };
+		95109678273EC86000DEF9BE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		951097E8273ED2F800DEF9BE /* options.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = options.html; sourceTree = "<group>"; };
+		951097E9273ED2F800DEF9BE /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		951097EA273ED2F800DEF9BE /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = "<group>"; };
+		951097EB273ED2F800DEF9BE /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		951097ED273ED2F800DEF9BE /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		951097EE273ED2F800DEF9BE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		951097EF273ED2F800DEF9BE /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
+		951097F0273ED2F900DEF9BE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9548E3A029A945A50036B5DA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		9560FE2C29F315040047094E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95109618273EC74B00DEF9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9548E3A129A945A50036B5DA /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510962A273EC74B00DEF9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9560FE2D29F315040047094E /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95109636273EC74B00DEF9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95109640273EC74B00DEF9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		951095FE273EC74200DEF9BE = {
+			isa = PBXGroup;
+			children = (
+				95109603273EC74300DEF9BE /* Shared (App) */,
+				9510960C273EC74B00DEF9BE /* Shared (Extension) */,
+				9510961D273EC74B00DEF9BE /* iOS (App) */,
+				9510962E273EC74B00DEF9BE /* macOS (App) */,
+				9510963D273EC74B00DEF9BE /* iOS (Extension) */,
+				95109647273EC74B00DEF9BE /* macOS (Extension) */,
+				9510961C273EC74B00DEF9BE /* Products */,
+				9548E39D29A945770036B5DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95109603273EC74300DEF9BE /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				9510960A273EC74300DEF9BE /* ViewController.swift */,
+				9510960B273EC74B00DEF9BE /* Assets.xcassets */,
+				95109604273EC74300DEF9BE /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		95109604273EC74300DEF9BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95109605273EC74300DEF9BE /* Main.html */,
+				95109678273EC86000DEF9BE /* Icon.png */,
+				95109608273EC74300DEF9BE /* Style.css */,
+				95109609273EC74300DEF9BE /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9510960C273EC74B00DEF9BE /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				9510960D273EC74B00DEF9BE /* SafariWebExtensionHandler.swift */,
+				951097E6273ED2B100DEF9BE /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		9510961C273EC74B00DEF9BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9510961B273EC74B00DEF9BE /* DrupalPod Helper.app */,
+				9510962D273EC74B00DEF9BE /* DrupalPod Helper.app */,
+				95109639273EC74B00DEF9BE /* DrupalPod Helper Extension.appex */,
+				95109643273EC74B00DEF9BE /* DrupalPod Helper Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9510961D273EC74B00DEF9BE /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				9510961E273EC74B00DEF9BE /* AppDelegate.swift */,
+				95109620273EC74B00DEF9BE /* SceneDelegate.swift */,
+				95109622273EC74B00DEF9BE /* LaunchScreen.storyboard */,
+				95109625273EC74B00DEF9BE /* Main.storyboard */,
+				95109628273EC74B00DEF9BE /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		9510962E273EC74B00DEF9BE /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				9510962F273EC74B00DEF9BE /* AppDelegate.swift */,
+				95109631273EC74B00DEF9BE /* Main.storyboard */,
+				95109634273EC74B00DEF9BE /* DrupalPod Helper.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		9510963D273EC74B00DEF9BE /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				9510963E273EC74B00DEF9BE /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		95109647273EC74B00DEF9BE /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				95109648273EC74B00DEF9BE /* Info.plist */,
+				95109649273EC74B00DEF9BE /* DrupalPod Helper.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		951097E6273ED2B100DEF9BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				951097E9273ED2F800DEF9BE /* css */,
+				951097EF273ED2F800DEF9BE /* icons */,
+				951097EE273ED2F800DEF9BE /* LICENSE */,
+				951097EB273ED2F800DEF9BE /* manifest.json */,
+				951097E8273ED2F800DEF9BE /* options.html */,
+				951097ED273ED2F800DEF9BE /* popup.html */,
+				951097F0273ED2F900DEF9BE /* README.md */,
+				951097EA273ED2F800DEF9BE /* scripts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9548E39D29A945770036B5DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9560FE2C29F315040047094E /* StoreKit.framework */,
+				9548E3A029A945A50036B5DA /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9510961A273EC74B00DEF9BE /* DrupalPod Helper (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9510966E273EC74B00DEF9BE /* Build configuration list for PBXNativeTarget "DrupalPod Helper (iOS)" */;
+			buildPhases = (
+				95109617273EC74B00DEF9BE /* Sources */,
+				95109618273EC74B00DEF9BE /* Frameworks */,
+				95109619273EC74B00DEF9BE /* Resources */,
+				9510966D273EC74B00DEF9BE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9510963C273EC74B00DEF9BE /* PBXTargetDependency */,
+			);
+			name = "DrupalPod Helper (iOS)";
+			productName = "DrupalPod Helper (iOS)";
+			productReference = 9510961B273EC74B00DEF9BE /* DrupalPod Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9510962C273EC74B00DEF9BE /* DrupalPod Helper (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95109675273EC74B00DEF9BE /* Build configuration list for PBXNativeTarget "DrupalPod Helper (macOS)" */;
+			buildPhases = (
+				95109629273EC74B00DEF9BE /* Sources */,
+				9510962A273EC74B00DEF9BE /* Frameworks */,
+				9510962B273EC74B00DEF9BE /* Resources */,
+				95109674273EC74B00DEF9BE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95109646273EC74B00DEF9BE /* PBXTargetDependency */,
+			);
+			name = "DrupalPod Helper (macOS)";
+			productName = "DrupalPod Helper (macOS)";
+			productReference = 9510962D273EC74B00DEF9BE /* DrupalPod Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95109638273EC74B00DEF9BE /* DrupalPod Helper Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9510966A273EC74B00DEF9BE /* Build configuration list for PBXNativeTarget "DrupalPod Helper Extension (iOS)" */;
+			buildPhases = (
+				95109635273EC74B00DEF9BE /* Sources */,
+				95109636273EC74B00DEF9BE /* Frameworks */,
+				95109637273EC74B00DEF9BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DrupalPod Helper Extension (iOS)";
+			productName = "DrupalPod Helper Extension (iOS)";
+			productReference = 95109639273EC74B00DEF9BE /* DrupalPod Helper Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		95109642273EC74B00DEF9BE /* DrupalPod Helper Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95109671273EC74B00DEF9BE /* Build configuration list for PBXNativeTarget "DrupalPod Helper Extension (macOS)" */;
+			buildPhases = (
+				9510963F273EC74B00DEF9BE /* Sources */,
+				95109640273EC74B00DEF9BE /* Frameworks */,
+				95109641273EC74B00DEF9BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DrupalPod Helper Extension (macOS)";
+			productName = "DrupalPod Helper Extension (macOS)";
+			productReference = 95109643273EC74B00DEF9BE /* DrupalPod Helper Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		951095FF273EC74200DEF9BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9510961A273EC74B00DEF9BE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					9510962C273EC74B00DEF9BE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					95109638273EC74B00DEF9BE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					95109642273EC74B00DEF9BE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 95109602273EC74200DEF9BE /* Build configuration list for PBXProject "DrupalPod Helper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 951095FE273EC74200DEF9BE;
+			productRefGroup = 9510961C273EC74B00DEF9BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9510961A273EC74B00DEF9BE /* DrupalPod Helper (iOS) */,
+				9510962C273EC74B00DEF9BE /* DrupalPod Helper (macOS) */,
+				95109638273EC74B00DEF9BE /* DrupalPod Helper Extension (iOS) */,
+				95109642273EC74B00DEF9BE /* DrupalPod Helper Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95109619273EC74B00DEF9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95109624273EC74B00DEF9BE /* LaunchScreen.storyboard in Resources */,
+				9510964A273EC74B00DEF9BE /* Main.html in Resources */,
+				95109650273EC74B00DEF9BE /* Script.js in Resources */,
+				95109679273EC86000DEF9BE /* Icon.png in Resources */,
+				95109654273EC74B00DEF9BE /* Assets.xcassets in Resources */,
+				95109627273EC74B00DEF9BE /* Main.storyboard in Resources */,
+				9510964E273EC74B00DEF9BE /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510962B273EC74B00DEF9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9510967A273EC86000DEF9BE /* Icon.png in Resources */,
+				9510964F273EC74B00DEF9BE /* Style.css in Resources */,
+				95109633273EC74B00DEF9BE /* Main.storyboard in Resources */,
+				95109651273EC74B00DEF9BE /* Script.js in Resources */,
+				95109655273EC74B00DEF9BE /* Assets.xcassets in Resources */,
+				9510964B273EC74B00DEF9BE /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95109637273EC74B00DEF9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951097FF273ED2F900DEF9BE /* icons in Resources */,
+				951097FB273ED2F900DEF9BE /* popup.html in Resources */,
+				951097F7273ED2F900DEF9BE /* manifest.json in Resources */,
+				951097FD273ED2F900DEF9BE /* LICENSE in Resources */,
+				951097F5273ED2F900DEF9BE /* scripts in Resources */,
+				95109801273ED2F900DEF9BE /* README.md in Resources */,
+				951097F3273ED2F900DEF9BE /* css in Resources */,
+				951097F1273ED2F900DEF9BE /* options.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95109641273EC74B00DEF9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95109800273ED2F900DEF9BE /* icons in Resources */,
+				951097FC273ED2F900DEF9BE /* popup.html in Resources */,
+				951097F8273ED2F900DEF9BE /* manifest.json in Resources */,
+				951097FE273ED2F900DEF9BE /* LICENSE in Resources */,
+				951097F6273ED2F900DEF9BE /* scripts in Resources */,
+				95109802273ED2F900DEF9BE /* README.md in Resources */,
+				951097F4273ED2F900DEF9BE /* css in Resources */,
+				951097F2273ED2F900DEF9BE /* options.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95109617273EC74B00DEF9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95109652273EC74B00DEF9BE /* ViewController.swift in Sources */,
+				9510961F273EC74B00DEF9BE /* AppDelegate.swift in Sources */,
+				95109621273EC74B00DEF9BE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95109629273EC74B00DEF9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95109653273EC74B00DEF9BE /* ViewController.swift in Sources */,
+				95109630273EC74B00DEF9BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95109635273EC74B00DEF9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95109656273EC74B00DEF9BE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510963F273EC74B00DEF9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95109657273EC74B00DEF9BE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9510963C273EC74B00DEF9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95109638273EC74B00DEF9BE /* DrupalPod Helper Extension (iOS) */;
+			targetProxy = 9510963B273EC74B00DEF9BE /* PBXContainerItemProxy */;
+		};
+		95109646273EC74B00DEF9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95109642273EC74B00DEF9BE /* DrupalPod Helper Extension (macOS) */;
+			targetProxy = 95109645273EC74B00DEF9BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95109605273EC74300DEF9BE /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95109606273EC74300DEF9BE /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		95109622273EC74B00DEF9BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95109623273EC74B00DEF9BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		95109625273EC74B00DEF9BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95109626273EC74B00DEF9BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95109631273EC74B00DEF9BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95109632273EC74B00DEF9BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95109668273EC74B00DEF9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				RESOURCES_TARGETED_DEVICE_FAMILY = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95109669273EC74B00DEF9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				RESOURCES_TARGETED_DEVICE_FAMILY = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9510966B273EC74B00DEF9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEVELOPMENT_TEAM = 4TKD6WUQY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DrupalPod Helper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0.6;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drupalpod.DrupalPod-Helper.Extension";
+				PRODUCT_NAME = "DrupalPod Helper Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9510966C273EC74B00DEF9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEVELOPMENT_TEAM = 4TKD6WUQY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DrupalPod Helper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0.6;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drupalpod.DrupalPod-Helper.Extension";
+				PRODUCT_NAME = "DrupalPod Helper Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9510966F273EC74B00DEF9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEVELOPMENT_TEAM = 4TKD6WUQY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DrupalPod Helper";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0.6;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drupalpod.DrupalPod-Helper";
+				PRODUCT_NAME = "DrupalPod Helper";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95109670273EC74B00DEF9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEVELOPMENT_TEAM = 4TKD6WUQY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DrupalPod Helper";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0.6;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drupalpod.DrupalPod-Helper";
+				PRODUCT_NAME = "DrupalPod Helper";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95109672273EC74B00DEF9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/DrupalPod Helper.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4TKD6WUQY2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DrupalPod Helper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0.6;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drupalpod.DrupalPod-Helper.Extension";
+				PRODUCT_NAME = "DrupalPod Helper Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		95109673273EC74B00DEF9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/DrupalPod Helper.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4TKD6WUQY2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DrupalPod Helper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0.6;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drupalpod.DrupalPod-Helper.Extension";
+				PRODUCT_NAME = "DrupalPod Helper Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		95109676273EC74B00DEF9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/DrupalPod Helper.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4TKD6WUQY2;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DrupalPod Helper";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "MIT License\n\nCopyright (c) 2021 Ofer Shaal\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0.6;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drupalpod.DrupalPod-Helper";
+				PRODUCT_NAME = "DrupalPod Helper";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		95109677273EC74B00DEF9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/DrupalPod Helper.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4TKD6WUQY2;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DrupalPod Helper";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "MIT License\n\nCopyright (c) 2021 Ofer Shaal\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0.6;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drupalpod.DrupalPod-Helper";
+				PRODUCT_NAME = "DrupalPod Helper";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95109602273EC74200DEF9BE /* Build configuration list for PBXProject "DrupalPod Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95109668273EC74B00DEF9BE /* Debug */,
+				95109669273EC74B00DEF9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9510966A273EC74B00DEF9BE /* Build configuration list for PBXNativeTarget "DrupalPod Helper Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9510966B273EC74B00DEF9BE /* Debug */,
+				9510966C273EC74B00DEF9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9510966E273EC74B00DEF9BE /* Build configuration list for PBXNativeTarget "DrupalPod Helper (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9510966F273EC74B00DEF9BE /* Debug */,
+				95109670273EC74B00DEF9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95109671273EC74B00DEF9BE /* Build configuration list for PBXNativeTarget "DrupalPod Helper Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95109672273EC74B00DEF9BE /* Debug */,
+				95109673273EC74B00DEF9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95109675273EC74B00DEF9BE /* Build configuration list for PBXNativeTarget "DrupalPod Helper (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95109676273EC74B00DEF9BE /* Debug */,
+				95109677273EC74B00DEF9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 951095FF273EC74200DEF9BE /* Project object */;
+}

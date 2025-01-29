@@ -1,0 +1,3 @@
+[submodule "Shared (Extension)/Resources"]
+	path = Shared (Extension)/Resources
+	url = git@github.com:shaal/drupalpod-browser-extension.git
